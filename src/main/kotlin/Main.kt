@@ -8,18 +8,18 @@ fun main(){
     println(noOfStrings())
     println(stmt())
 
-    val name1 =  "Harvey"
-    val name2 = "Angel"
-    if(name1 ==(name2)){
-        println("I know you")}else{
+    val name =  "Harvey"
+    val statement = "That's me!"
+    if(name ==(statement)){
+        println("It's me")}else{
             println("I don't know who that is")
     }
 
 }
 fun noOfStrings():Int{
     val noString = "kotlin"
-    val len = noString.length
-    return len
+    val length = noString.length
+    return length
 }
 
 fun stmt():String{
